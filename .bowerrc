@@ -1,0 +1,15 @@
+{
+  "directory": "vendor/bower",
+  "nexus" : {
+    "username" : "admin",
+    "password" : "admin123"
+  },
+  "registry": {
+    "search": "http://nexus.desenv.ctis.mctic.gov.br/repository/bower-registry",
+    "register": "http://nexus.desenv.ctis.mctic.gov.br/repository/bower-internal"
+  },
+  "resolvers": [
+    "bower-nexus3-resolver"
+  ],
+  "strict-ssl": false
+}

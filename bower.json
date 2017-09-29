@@ -1,0 +1,29 @@
+{
+  "name": "testa-component",
+  "description": "Componente",
+  "main": ["./target/testa-component.js", "./target/testa-component.css"],
+  "version": "1.0.0",
+  "authors": [
+  ],
+  "license": "ISC",
+  "keywords": [
+    "gulp",
+    "component",
+    "build"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ngc-core": "latest",
+    "ngc-cabecalho": "latest",
+    "ngc-menu": "latest",
+    "isei-pesquisar-bloco-frontend":"latest"
+  }
+}
